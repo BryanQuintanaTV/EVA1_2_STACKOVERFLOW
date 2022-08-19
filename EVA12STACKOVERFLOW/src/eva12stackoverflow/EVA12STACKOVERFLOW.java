@@ -1,20 +1,24 @@
 /*
- * "
- * "
+ * "EVA1_2_STACKOVERFLOW
+ * "Practica 2 "STACKOVERFLOW"
  */
+
 package eva12stackoverflow;
 
 /**
- *
- * @author Usuario
+ * @author Quintana Juarez Bryan Alexis
  */
 public class EVA12STACKOVERFLOW {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        A();
     }
     
+    public static void A(){
+        B();
+    }
+    
+    public static void B(){
+        A();
+    }
 }
